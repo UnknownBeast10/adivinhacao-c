@@ -110,7 +110,7 @@ int main() {
                     printf("Voce nao pode chutar numeros negativos!\n");
                     printf("Tente Novamente!\n");
                     goto Diff2;
-                } else if(chute > 100) { 
+                } else if(chute > 500) { 
                     printf("Voce Errou, seu chute foi de %d\n", chute);
                     printf("Voce nao pode chutar numeros acima de 100!\n");
                     printf("Tente Novamente!\n");
@@ -170,7 +170,7 @@ int main() {
                     printf("Voce nao pode chutar numeros negativos!\n");
                     printf("Tente Novamente!\n");
                     goto Diff3;
-                } else if(chute > 100) { 
+                } else if(chute > 1000) { 
                     printf("Voce Errou, seu chute foi de %d\n", chute);
                     printf("Voce nao pode chutar numeros acima de 100!\n");
                     printf("Tente Novamente!\n");
